@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIP Smart Web</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background:#878c99;
+            color:white;
+            line-height:1.7;
+        }
+
+        /* HEADER */
+
+        .hero{
+            background:linear-gradient(135deg,#4864b0,#0c255b);
+            padding:60px 20px;
+            text-align:center;
+        }
+
+        .hero h1{
+            font-size:40px;
+            margin-bottom:15px;
+            letter-spacing:1px;
+        }
+
+        .hero p{
+            max-width:800px;
+            margin:auto;
+            font-size:18px;
+            opacity:0.95;
+        }
+
+        /* CONTAINER */
+
+        .container{
+            width:90%;
+            max-width:1100px;
+            margin:40px auto;
+        }
+
+        /* CARD SECTION */
+
+        .info-box{
+            background:#111827;
+            padding:30px;
+            border-radius:15px;
+            margin-bottom:40px;
+            box-shadow:0 10px 25px rgba(0,0,0,0.4);
+        }
+
+        .info-box h2{
+            color:#60a5fa;
+            margin-bottom:20px;
+            font-size:32px;
+        }
+
+        .info-box p{
+            color:#d1d5db;
+            font-size:17px;
+        }
+
+        /* VIP CARDS */
+
+        .cards{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+            gap:25px;
+        }
+
+        .card{
+            background:#111827;
+            padding:30px 20px;
+            border-radius:15px;
+            text-align:center;
+            transition:0.3s;
+            box-shadow:0 10px 20px rgba(0,0,0,0.3);
+        }
+
+        .card:hover{
+            transform:translateY(-10px);
+        }
+
+        .card h3{
+            margin-bottom:15px;
+            font-size:28px;
+        }
+
+        .price{
+            font-size:30px;
+            color:#60a5fa;
+            margin-bottom:20px;
+            font-weight:bold;
+        }
+
+        .card p{
+            color:#d1d5db;
+            margin-bottom:25px;
+        }
+
+        /* BUTTONS */
+
+        .btn{
+            display:inline-block;
+            padding:12px 28px;
+            border-radius:50px;
+            text-decoration:none;
+            background:#2563eb;
+            color:white;
+            font-weight:bold;
+            transition:0.3s;
+        }
+
+        .btn:hover{
+            background:#1d4ed8;
+        }
+
+        /* TELEGRAM BUTTON */
+
+        .telegram{
+            text-align:center;
+            margin-top:50px;
+        }
+
+        .telegram a{
+            background:#0088cc;
+            padding:15px 35px;
+            border-radius:50px;
+            color:white;
+            text-decoration:none;
+            font-size:18px;
+            font-weight:bold;
+            transition:0.3s;
+        }
+
+        .telegram a:hover{
+            background:#ddecf4;
+        }
+
+        /* FOOTER */
+
+        footer{
+            margin-top:60px;
+            text-align:center;
+            padding:20px;
+            color:#9ca3af;
+            background:#111827;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- HERO SECTION -->
+
+    <section class="hero">
+        <h1>VIP CARDS & RESERVATION MANAGEMENT</h1>
+
+        <p>
+            Exclusive VIP access for dedicated fans who wish to enjoy premium
+            services, private reservations, special invitations, and direct
+            connection with VIP management personnels.
+        </p>
+    </section>
+
+    <!-- MAIN CONTENT -->
+
+    <div class="container">
+
+        <!-- ABOUT SECTION -->
+
+        <div class="info-box">
+
+            <h2>About The VIP Membership</h2>
+
+            <p>
+                The VIP Membership is a personalized premium card designed
+                specifically for each member. Your card will include your
+                personal photo, membership name, unique membership code,
+                and official management signature.
+                <br><br>
+
+                Members receive exclusive VIP services, priority invitations
+                to upcoming events, movie project updates before official
+                release, private reservation opportunities with our VIPs,
+                and complete access to our reservation and flight assistance
+                services.
+            </p>
+
+        </div>
+
+        <!-- VIP CARDS -->
+
+        <div class="cards">
+
+            <!-- REGULAR -->
+
+            <div class="card">
+                <h3>Regular VIP</h3>
+
+                <div class="price">$4,500</div>
+
+                <p>
+                    Entry-level VIP membership with exclusive fan benefits
+                    and event access.
+                </p>
+
+                <a href="payment2.html" class="btn">
+                    Select Plan
+                </a>
+            </div>
+
+            <!-- PREMIUM -->
+
+            <div class="card">
+                <h3>Premium Card</h3>
+
+                <div class="price">$8,500</div>
+
+                <p>
+                    Enhanced VIP experience including priority reservations
+                    and premium support services.
+                </p>
+
+                <a href="payment2.html" class="btn">
+                    Select Plan
+                </a>
+            </div>
+
+            <!-- GOLD -->
+
+            <div class="card">
+                <h3>Gold Card</h3>
+
+                <div class="price">$15,000</div>
+
+                <p>
+                    Ultimate luxury VIP package with maximum access and
+                    exclusive private benefits.
+                </p>
+
+                <a href="payment2.html" class="btn">
+                    Select Plan
+                </a>
+            </div>
+
+        </div>
+
+       
+    <!-- FOOTER -->
+
+    <footer>
+        © 2026 VIP Smart Web | All Rights Reserved
+    </footer>
+
+</body>
+</html>
